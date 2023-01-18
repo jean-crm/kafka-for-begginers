@@ -20,7 +20,7 @@ public class ProducerDemo {
         // 2. Create the producer
         KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
 
-        // 3. Create a produce record
+        // 3. Create a produce record.
         ProducerRecord<String, String> record =
                 new ProducerRecord<>("first_topic", "hello world");
 

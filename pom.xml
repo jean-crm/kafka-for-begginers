@@ -5,11 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-<<<<<<< HEAD
     <artifactId>kafka-for-begginers</artifactId>
-=======
-    <artifactId>kafka-test</artifactId>
->>>>>>> 6dcbad493bd7e993d44773dc0e2d43c703c7f981
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -25,17 +21,12 @@
             <artifactId>kafka-clients</artifactId>
             <version>3.3.1</version>
         </dependency>
-<<<<<<< HEAD
-=======
-
->>>>>>> 6dcbad493bd7e993d44773dc0e2d43c703c7f981
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>2.0.6</version>
         </dependency>
-
     </dependencies>
 
 </project>
