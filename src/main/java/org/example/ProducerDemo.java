@@ -22,7 +22,7 @@ public class ProducerDemo {
 
         // 3. Create a produce record.
         ProducerRecord<String, String> record =
-                new ProducerRecord<>("first_topic", "hello world");
+                new ProducerRecord<>("first_topic", "hello world!!!");
 
         // 4. Send Data
         producer.send(record);
